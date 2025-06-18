@@ -27,14 +27,15 @@ A MERN stack application that helps track and visualize students' programming pr
 ---
 
 ##  Getting Started
-API Endpoints
+# 📚 API Documentation
 Base URL: http://localhost:3001
 
-Method     Endpoint      	  Description
-GET	      /students    	Fetch all students
-POST	    /students	    Add a new student
-PUT	      /students/:id	   Update a student
-DELETE	  /students/:id	   Delete a student
+| Method | Endpoint         | Description           |
+|--------|------------------|-----------------------|
+| GET    | `/students`      | Fetch all students    |
+| POST   | `/students`      | Add a new student     |
+| PUT    | `/students/:id`  | Update a student      |
+| DELETE | `/students/:id`  | Delete a student      |
 
 ### 1. Clone the Repository
 
