@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply transition duration-300 ease-in-out;
+}
+
+.dark {
+  @apply bg-gray-900 text-white;
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+  th, td {
+    padding: 8px 0;
+  }
+}
